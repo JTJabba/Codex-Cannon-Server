@@ -5,6 +5,7 @@ Hub repo for release of Codex 1.8 cannon server, client mods, and public world a
 - [Open-source Plugins](#open-source-plugins)
   - [Client-side](#client-side-mods)
   - [Server-side](#server-side-plugins)
+- [Common Commands](#common-commands)
 
 ## Server
 The server can be downloaded [here](https://codex-cannoning.s3.amazonaws.com/codex-server-v2024.10.6.7z). The configs have been cleaned up and it's ready to use. Doesn't include any data from OG server.
@@ -35,3 +36,17 @@ The public world archives from 2024-8-14 can be downloaded [here](https://codex-
 [CannonDebugExtra](https://github.com/alex-huff/CannonDebugExtra)
 
 [CannonTracerMod](https://github.com/alex-huff/CannonTracerMod)
+
+
+## Common Commands
+- `/tracer`, `/t` - will show all commands for CannonTracer
+  - `/ct` - clears tracers. Alias for `/t clear`
+  - `/tt` - toggles tracers. Alias for `/t t`
+- `/f` - fill dispencers within 64 blocks with 576 TNT. Alias for `/dt 64 46 576`
+- `/kd` - kills all entities in your world. Alias for `/killall entities`
+- `/fire`, `/lever` - uses last button/lever
+
+### Multiverse
+- **List worlds:** `/mv list`
+- **TP to world:** `/mv tp <world-name>`
+- **Create superflat:** `/mv create testing2 NORMAL -g CleanroomGenerator:`
