@@ -47,6 +47,26 @@ The public world archives from 2024-8-14 can be downloaded [here](https://codex-
 - `/fire`, `/lever` - uses last button/lever
 
 ### Multiverse
-- **List worlds:** `/mv list`
-- **TP to world:** `/mv tp <world-name>`
-- **Create superflat:** `/mv create <world-name> NORMAL -g CleanroomGenerator:`
+- `/mv list` - list all worlds
+- `/mv tp <world-name>` - teleport to specified world
+- `/mv create <world-name> NORMAL -g CleanroomGenerator:` - create new superflat world
+
+### EntityProfiler
+
+- `/toggletnt` - toggles TNT tracking
+- `/tntminx` - set minimum threshold for X
+- `/tntminy` - set minimum threshold for Y
+- `/tntminz` - set minimum threshold for Z
+- `/togglesand` - toggles sand tracking
+- `/sandminx` - set minimum threshold for X
+- `/sandminy` - set minimum threshold for Y
+- `/sandminz` - set minimum threshold for Z
+- `/thresholds` - view min velocity values and max center distance values
+- `/togglereceive` - toggles output to command executor
+- `/togglebounds` - toggles entity distance filtering
+- `/setcenter` - sets center position for distance filtering
+- `/maxxfromcenter` - sets max X distance from center
+- `/maxyfromcenter` - sets max Y distance from center
+- `/maxzfromcenter` - sets max Z distance from center
+- `/decimalplaces` - sets decimal places in output
+- `/only1x1s` - only shows entity location in 1x1 spaces
