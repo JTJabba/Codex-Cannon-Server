@@ -49,4 +49,4 @@ The public world archives from 2024-8-14 can be downloaded [here](https://codex-
 ### Multiverse
 - **List worlds:** `/mv list`
 - **TP to world:** `/mv tp <world-name>`
-- **Create superflat:** `/mv create testing2 NORMAL -g CleanroomGenerator:`
+- **Create superflat:** `/mv create <world-name> NORMAL -g CleanroomGenerator:`
